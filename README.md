@@ -1,7 +1,7 @@
 # OHAMA-PIOS
 For University project in the IS-213 Open Source software
 
-#Introduction
+<h2>#Introduction</h2><br>
 The project will cover different fields within Open Source. We have a plan to handle some challenges that have relations with everyday events and people need to know like temperature, humidity, sound pollution and air quality. Because of these challenges, we are going to measure such events regarding the atmosphere around us by special sensors using Open Source codes.
 
 
