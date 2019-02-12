@@ -12,7 +12,7 @@ Hardware:
   * Hazardous Gas 
 
 Software: 
-  * Python 3.7
-  * OpenMCT
+  * <a href="https://www.python.org/downloads/release/python-372/">Python 3.7</a>
+  * <a href="https://github.com/nasa/openmct">OpenMCT</a>
   * Docker container
-  * Node.JS
+  * <a href="https://nodejs.org/en/">Node.JS</a>
