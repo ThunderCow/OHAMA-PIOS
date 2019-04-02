@@ -41,4 +41,5 @@ In this repository there are two different types of branches:
  <li>Issue / development branches</li>
 </ol>
 
-
+<h3>- Standards</h3>
+The team has set some standards (these are guidelines) we expect to be followed when contributing towards the project. These standards should be followed when reviewing a pull request before merging a branch into master.
