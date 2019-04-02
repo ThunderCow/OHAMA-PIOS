@@ -46,7 +46,9 @@ The team has set some standards (these are guidelines) we expect to be followed 
 
 <h4> -- Code standards</h4>
   These standards should be considered when coding.<br>
-  * Classes, methodes, functions and variables should have a descriptive name.<br>
-  * Document what the different parts of the code does.<br>
-  * Focus on high cohesion and while to limiting the coupling to a minium.<br>
-  * Try to have as little code duplication as possible.<br>
+  <ul>
+  <li> Classes, methodes, functions and variables should have a descriptive name.</li>
+  <li> Document what the different parts of the code does.</li>
+  <li> Focus on high cohesion while limiting the coupling to a minium.</li>
+  <li> Try to have as little code duplication as possible.</li>
+  <ul>
