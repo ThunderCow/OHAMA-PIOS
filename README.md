@@ -26,10 +26,19 @@ Software:
 <h1>#Contributing</h1>
 In this part we will cover how to contribute towards the project and the standard methodology used. Changes should manily be pushed to a branch, this can be overruled in situations when pair-evaluation is done. 
 
-<h2>*Summary</h2>
+<h3>- Summary</h3>
 <ol>
  <li>Draft the contribution.</li>
  <li>Review the contribution to follow the standard.</li>
  <li>Push the work to a development branch.</li>
  <li>Make a pull request from the branch to master for having a evaluation by another contributer.</li>
 </ol> 
+
+<h3>- Branches</h3>
+In this repository there are two different types of branches:
+<ol>
+ <li>Master</li>
+ <li>Issue / development branches</li>
+</ol>
+
+
