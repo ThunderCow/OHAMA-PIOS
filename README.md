@@ -7,6 +7,7 @@ The project will cover different fields within Open Source. We have a plan to ha
 
 Hardware:
   * <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">Raspberry Pi 3</a>
+  * <a href="https://www.raspberrypi.org/products/sense-hat/">SenseHat </a>
   * Dust particle sensor (more info to come)
   * Humidity Sensor
   * Temperature sensor
@@ -18,5 +19,5 @@ Software:
   * <a href="https://www.raspberrypi.org/downloads/raspbian/">Raspbian</a>
   * <a href="https://www.python.org/downloads/release/python-372/">Python 3.7</a>
   * <a href="https://github.com/plotly">Plotly</a>
-  
+  * <a href="https://plot.ly/products/dash/">Dash by plotly</a> 
   
