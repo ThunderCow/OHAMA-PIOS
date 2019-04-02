@@ -22,3 +22,13 @@ Software:
   * <a href="https://plot.ly/products/dash/">Dash by plotly</a> 
   
 ![Graph](../master/image/Graph-v-1.01.PNG)
+
+<h1>#Contributing</h1>
+In this part we will cover how to contribute towards the project and the standard methodology used. Changes should manily be pushed to a branch, this can be overruled in situations when pair-evaluation is done. 
+
+<h2>*Summary</h2>
+1. Draft the contribution.
+2. Review the contribution to follow the standard.
+3. Push the work to a development branch.
+4. Make a pull request from the branch to master for having a evaluation by another contributer.
+ 
