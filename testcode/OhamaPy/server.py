@@ -9,9 +9,10 @@ from collections import deque
 import plotly
 import random
 from dash.dependencies import Input, Output
-from OhamaPy import exportCsv
+import exportCsv
+from sense_hat import SenseHat
 
-
+sense = SenseHat()
 app = dash.Dash(__name__)
 
 export = exportCsv.CsvExport()
@@ -52,7 +53,7 @@ app.layout = html.Div(
         dcc.Graph(id='temp5-update-graph'),
         dcc.Interval(
             id='interval-component',
-            interval=2 * 1000,  # in milliseconds
+            interval=5 * 1000,  # in milliseconds
             n_intervals=0
         )
     ])
@@ -70,25 +71,26 @@ def start_server():
                    Output('temp5-update-graph', 'figure')],
                [Input('interval-component', 'n_intervals')])
 def update_graph_live(n):
+    dt_log = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     X.append(datetime.datetime.now())
-    input1 = len(repr(float(Y[-1] + Y[-1] * random.uniform(-0.1, 0.1)/3)))
+    input1 = ("%.2f" % sense.get_temperature())
     Y.append(input1)
 
-    R.append(datetime.datetime.now())
-    input2 = len(repr(float(Q[-1] + Q[-1] * random.uniform(-0.1, 0.1)/3)))
+    R.append(dt_log)
+    input2 = ("%.2f" % sense.get_pressure())
     Q.append(input2)
     A.append(datetime.datetime.now())
-    input3 = len(repr(float(B[-1] + B[-1] * random.uniform(-0.1, 0.1)/3)))
+    input3 = ("%.2f" % sense.get_humidity())
     B.append(input3)
 
     C.append(datetime.datetime.now())
-    input4 = len(repr(float(D[-1] + D[-1] * random.uniform(-0.1, 0.1)/3)))
+    input4 = ("%.2f" % sense.get_temperature_from_pressure())
     D.append(input4)
 
     E.append(datetime.datetime.now())
-    input5 = len(repr(float(F[-1] + F[-1] * random.uniform(-0.1, 0.1)/3)))
+    input5 = ("%.2f" % sense.get_temperature_from_humidity())
     F.append(input5)
-    export.writeData(input1, input2, input3, input4, input5)
+    export.writeData(dt_log, input1, input2, input3, input4, input5)
 
     data1 = plotly.graph_objs.Scatter(
         x=list(X),
