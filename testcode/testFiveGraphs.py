@@ -9,6 +9,8 @@ from collections import deque
 import plotly
 import random
 from dash.dependencies import Input, Output
+import csv
+from csv import writer
 
 sense = SenseHat()
 
@@ -126,8 +128,28 @@ def update_graph_live(n):
 
     return rdata1, rdata2, rdata3, rdata4, rdata5
 
+def get_sense_data():
+    sense_data = []
+    sense_data.append("%.2f" % sense.get_temperature())
+    sense_data.append("%.2f" % sense.get_pressure())
+    sense_data.append("%.2f" % sense.get_humidity())
+    sense_data.append("%.2f" % sense.get_temperature_from_pressure())
+    sense_data.append("%.2f" % sense.get_temperature_from_humidity())
+
+    orientation = sense.get_orientation()
+
+    return sense_data
+
+with open('dataFile.csv', 'w') as data_file:
+    data_writer = writer(data_file)
+
+    while True:
+        data = get_sense_data()
+        data_writer.writerow(data)
+        data_writer.writerow(['Temp','Pressure','Humidity', 'Temp_from_pressure', 'Temp_from_humidity'])
+
+
 
 if __name__ == '__main__':
     app.run_server(debug=True)
-
 
