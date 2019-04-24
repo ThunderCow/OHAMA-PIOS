@@ -1,3 +1,3 @@
-from OhamaPy import server
+from Code import server
 
 serv = server.start_server()
