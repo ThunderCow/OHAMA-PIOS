@@ -43,3 +43,12 @@ In this repository there are two different types of branches:
 
 <h3>- Standards</h3>
 The team has set some standards (these are guidelines) we expect to be followed when contributing towards the project. These standards should be followed when reviewing a pull request before merging a branch into master.
+
+<h4> -- Code standards</h4>
+  These standards should be considered when coding.<br>
+  <ul>
+  <li> Classes, methodes, functions and variables should have a descriptive name.</li>
+  <li> Document what the different parts of the code does.</li>
+  <li> Focus on high cohesion while limiting the coupling to a minium.</li>
+  <li> Try to have as little code duplication as possible.</li>
+  <ul>
