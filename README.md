@@ -28,4 +28,5 @@ Software:
 <h1>#Contributing</h1>
 The basic idea behind making this project is to give access to the people who want to use it and people who are eager to contribute in Open Source Project, everyone is welcome here. That is the reason we made this project as "Open Source" that people can freely use it as well as expand the project if they can.<br>
 <b>Below are some guidelines to contribute in this project:</b><br>
-In this part, we will cover how to contribute towards the project and the standard methodology used. Before start contributing to this project, you first need to read <a href="https://github.com/ThunderCow/OHAMA-PIOS/wiki/Startup-Guide">Startup Guide</a> 
+In this part, we will cover how to contribute towards the project and the standard methodology used. Before start contributing to this project, you first need to read <a href="https://github.com/ThunderCow/OHAMA-PIOS/wiki/Startup-Guide">Startup Guide</a><br>
+After reading startup guidelines, you can go for this <a href="https://github.com/ThunderCow/OHAMA-PIOS/wiki/Contribution">Contribution Guidelines</a>.
