@@ -3,9 +3,9 @@ Welcome to this project!
 We are students with University of Agder, taking the IT and Information Systems degree program. The reason to do this project is related to one of the subject called "IS-213 Open Source software" where we are required to do the practicial work regarding Open source. The aim through this project is to look into how Open Source project can be made and how it works in real life.
 
 <h2>#Introduction</h2><br>
-The project will cover different fields within Open Source. We have a plan to handle some challenges that have relations with everyday events and people need to know like temperature, humidity, sound pollution and air quality. Because of these challenges, we are going to measure such events regarding the atmosphere around us by special sensors using Open Source codes.<br><br>
+OHAMA PIOS project will cover different fields within Open Source. We have a plan to handle some challenges that have relations with everyday events and people need to know like temperature, humidity, sound pollution and air quality. Because of these challenges, we are going to measure such events regarding the atmosphere around us by special sensors within Open Source.<br><br>
 
-
+<h2>#Requirements</h2><br>
 Hardware:
   * <a href="https://www.raspberrypi.org/products/raspberry-pi-3-model-b/">Raspberry Pi 3</a>
   * <a href="https://www.raspberrypi.org/products/sense-hat/">SenseHat </a>
