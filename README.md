@@ -26,8 +26,8 @@ Software:
 ![Graph](../master/image/Graph-v-1.01.PNG)
 
 <h1>#Contributing</h1>
-The basic idea behind making this project is to give access to the people who want to use it and people who are eager to contribute in Open Source Project, everyone is welcome to contribute in it. That is the reason we made this project as "Open Source" that people can freely use it as well as expand the project if they can.<br>
-Below are some guidelines to contribute in this project:<br>
+The basic idea behind making this project is to give access to the people who want to use it and people who are eager to contribute in Open Source Project, everyone is welcome here. That is the reason we made this project as "Open Source" that people can freely use it as well as expand the project if they can.<br>
+<b>Below are some guidelines to contribute in this project:</b><br>
 In this part, we will cover how to contribute towards the project and the standard methodology used. Changes should manily be pushed to a branch, this can be overruled in situations when pair-evaluation is done. 
 
 <h3>- Summary</h3>
