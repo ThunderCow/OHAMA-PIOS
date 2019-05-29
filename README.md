@@ -28,31 +28,4 @@ Software:
 <h1>#Contributing</h1>
 The basic idea behind making this project is to give access to the people who want to use it and people who are eager to contribute in Open Source Project, everyone is welcome here. That is the reason we made this project as "Open Source" that people can freely use it as well as expand the project if they can.<br>
 <b>Below are some guidelines to contribute in this project:</b><br>
-In this part, we will cover how to contribute towards the project and the standard methodology used. Before start contributing to this project, you first need to read <a href="https://github.com/ThunderCow/OHAMA-PIOS/wiki/Startup-Guide">Startup Guide</a> Changes should manily be pushed to a branch, this can be overruled in situations when pair-evaluation is done. 
-
-<h3>- Summary</h3>
-<ol>
- <li>Draft the contribution.</li>
- <li>Review the contribution to follow the standard.</li>
- <li>Push the work to a development branch.</li>
- <li>Make a pull request from the branch to master for having a evaluation by another contributer.</li>
-</ol> 
-
-<h3>- Branches</h3>
-In this repository there are two different types of branches:
-<ol>
- <li>Master</li>
- <li>Issue / development branches</li>
-</ol>
-
-<h3>- Standards</h3>
-The team has set some standards (these are guidelines) we expect to be followed when contributing towards the project. These standards should be followed when reviewing a pull request before merging a branch into master.
-
-<h4> -- Code standards</h4>
-  These standards should be considered when coding.<br>
-  <ul>
-  <li> Classes, methodes, functions and variables should have a descriptive name.</li>
-  <li> Document what the different parts of the code does.</li>
-  <li> Focus on high cohesion while limiting the coupling to a minium.</li>
-  <li> Try to have as little code duplication as possible.</li>
-  <ul>
+In this part, we will cover how to contribute towards the project and the standard methodology used. Before start contributing to this project, you first need to read <a href="https://github.com/ThunderCow/OHAMA-PIOS/wiki/Startup-Guide">Startup Guide</a> 
