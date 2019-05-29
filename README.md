@@ -1,6 +1,6 @@
 # OHAMA-PIOS Open Source Project
 Welcome to this project!
-We are students with University of Agder, taking IT and Information Systems degree program. The reason to do this project is related to one of the subject called "IS-213 Open Source software" where we are required to do the practical work regarding Open Source. The aim of this project is to look into how Open Source project can be made and how it works in real life.
+We are students with University of Agder, taking the IT and Information Systems degree program. The reason to do this project is related to one of the subject called "IS-213 Open Source software" where we are required to do the practicial work regarding Open Source. The aim through this project is to look into how Open Source project can be made and how it works in real life.
 
 <h2>#Introduction</h2><br>
 OHAMA PIOS project will cover different fields within Open Source. We have a plan to handle some challenges that have relations with everyday events and people need to know like temperature, humidity, sound pollution and air quality. Because of these challenges, we are going to measure such events regarding the atmosphere around us by special sensors within Open Source.<br><br>
@@ -26,7 +26,9 @@ Software:
 ![Graph](../master/image/Graph-v-1.01.PNG)
 
 <h1>#Contributing</h1>
-In this part we will cover how to contribute towards the project and the standard methodology used. Changes should manily be pushed to a branch, this can be overruled in situations when pair-evaluation is done. 
+The basic idea behind making this project is to give access to the people who want to use it and people who are eager to contribute in Open Source Project, everyone is welcome to contribute in it. That is the reason we made this project as "Open Source" that people can freely use it as well as expand the project if they can.<br>
+Below are some guidelines to contribute in this project:<br>
+In this part, we will cover how to contribute towards the project and the standard methodology used. Changes should manily be pushed to a branch, this can be overruled in situations when pair-evaluation is done. 
 
 <h3>- Summary</h3>
 <ol>
