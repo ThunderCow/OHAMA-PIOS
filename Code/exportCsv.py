@@ -1,3 +1,4 @@
+# importing python libraries
 import datetime
 from collections import deque
 import csv
@@ -13,6 +14,7 @@ class CsvExport:
             data_writer.writerow(['Date_Time,Temp,Pressure,Humidity,Temp_from_pressure,Temp_from_humidity'])
             data_file.close()
 
+ # ready to write data through this function
     def writeData(self,dt_log, input1, input2, input3, input4, input5):
         with open('dataFile.csv', 'a') as data_file:
             data_writer = writer(data_file)
