@@ -30,7 +30,7 @@ D = deque(maxlen=20)
 E = deque(maxlen=20)
 F = deque(maxlen=20)
 
-# appending into varsbls
+# appending varbls
 X.append(1)
 R.append(1)
 Y.append(1)
