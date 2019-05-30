@@ -1,3 +1,4 @@
+# importing pythong libraries
 import datetime
 import time
 #from sense_hat import SenseHat
@@ -29,6 +30,7 @@ D = deque(maxlen=20)
 E = deque(maxlen=20)
 F = deque(maxlen=20)
 
+# appending into varsbls
 X.append(1)
 R.append(1)
 Y.append(1)
@@ -59,7 +61,7 @@ app.layout = html.Div(
     ])
 )
 
-
+# starting the server
 def start_server():
     app.run_server(debug=True)
 
